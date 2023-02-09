@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#inputField {
+    
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    width: 40%;
+    height: 25px;
+    background-color: yellowgreen;
+}
+
+#addToDo {
+    width: 40px;
+    height: 27px;
+    background-color: rgb(209, 71, 71);
+    border: 1px;
+}
+
+
+.to-dos {
+    padding: 5px;
+}
+.all-btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: red;
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+
+}
+#btn {
+    background-color: red;
+    border: none;
+    padding: 4px;
+    border-radius: 2px;
+}
+#task {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    width: 40%;
+    height: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+
+}
+.complete {
+    display: flex;
+}
+.Delete {
+    display: flex;
+}
+
+.done>span{
+    text-decoration: line-through;
+}
